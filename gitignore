@@ -1,0 +1,27 @@
+﻿# Laravel-specifieke bestanden en mappen
+/vendor/
+/node_modules/
+npm-debug.log
+bootstrap/compiled.php
+app/storage/
+public/storage
+public/hot
+storage/*.key
+.env.*.php
+.env.php
+.env
+Homestead.yaml
+Homestead.json
+
+# Visual Studio Code
+.vscode
+
+# Rider
+.idea
+
+# Visual Studio 2015
+.vs/
+
+
+# PHPStorm-specifieke bestanden (optioneel)
+.idea/
