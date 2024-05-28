@@ -56,3 +56,8 @@ jobs:
         DB_CONNECTION: sqlite
         DB_DATABASE: database/database.sqlite
       run: php artisan test
+
+
+    - name: Display Laravel logs on failure
+      if: failure()
+      run: cat storage/logs/laravel.log
