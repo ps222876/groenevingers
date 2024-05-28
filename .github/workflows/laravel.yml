@@ -13,15 +13,19 @@ jobs:
     steps:
     - uses: actions/checkout@v4
 
-    - name: Set up PHP
-      uses: shivammathur/setup-php@15c43e89cdef867065b0213be354c2841860869e
-      with:
-        php-version: '8.1'
 
     - name: Set up Node.js
       uses: actions/setup-node@v3
       with:
         node-version: '16'
+
+        
+    - name: Set up PHP
+      uses: shivammathur/setup-php@15c43e89cdef867065b0213be354c2841860869e
+      with:
+        php-version: '8.1'
+
+    
 
 
     - name: Copy .env
